@@ -1,7 +1,7 @@
 module Day2 where 
  
 import System.IO
-import Data.Char
+import Data.Char (isDigit, digitToInt, isSpace, isAlpha)
 import Data.Text (replace)
 
 day2 :: IO()

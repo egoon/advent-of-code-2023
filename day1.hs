@@ -1,5 +1,7 @@
+module Day1 where
+
 import System.IO
-import Data.Char
+import Data.Char (digitToInt, isDigit)
 
 day1 :: IO()
 day1 = do
